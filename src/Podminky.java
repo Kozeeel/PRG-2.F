@@ -1,8 +1,8 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 import java.nio.file.Files;
 import java.util.Random;
-public class Podminky {
-    public static void main(String[] args) {
+//public class Podminky {
+    //public static void main(String[] args) {
         //Scanner sc = new Scanner(System.in);
         //System.out.println("Zadejte libovolné číslo.");
         //int a = sc.nextInt();
@@ -29,9 +29,9 @@ public class Podminky {
         //}
 
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Zadejte libovolné číslo.");
-        int a = sc.nextInt();
-        if (a )
-    }
-}
+        //Scanner sc = new Scanner(System.in);
+        //System.out.println("Zadejte libovolné číslo.");
+        //int a = sc.nextInt();
+        //if (a )
+    //}
+//}
