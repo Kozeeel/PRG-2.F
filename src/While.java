@@ -6,7 +6,7 @@ public class While {
 
         while (cisla <= 1000) {
             System.out.println(cisla);
-            cisla += 2;
+             cisla += 2;
         }
 
         //simulujte hod kostkou dokud nepadne 6
