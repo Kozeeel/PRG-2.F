@@ -64,6 +64,6 @@ public class ForCV {
             }
         }
 
-        System.out.println("Orla si hodil v: " + pocetsmrti * 100.0/ pocethodu + "procentech");
+        System.out.println("Orla si hodil v: " + pocetsmrti * 100.0/ pocethodu + " procentech");
     }
 }
