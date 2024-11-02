@@ -1,3 +1,5 @@
+package listopad;
+
 public class For {
     public static void main(String[] args) {
         // Vypište všechny násobky 5 do čísla 1000.

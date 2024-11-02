@@ -1,3 +1,5 @@
+package rijen;
+
 import java.util.Random;
 public class While {
     public static void main(String[] args) {

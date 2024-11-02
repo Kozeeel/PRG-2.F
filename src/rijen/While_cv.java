@@ -1,3 +1,5 @@
+package rijen;
+
 import java.util.Scanner;
 public class While_cv {
     public static void main(String[] args) {

@@ -1,5 +1,7 @@
+package listopad;
+
 import java.util.Random;
-import java.util.Scanner;
+
 public class ForCV {
     public static void main(String[] args) {
 //        1. ukol
@@ -33,37 +35,37 @@ public class ForCV {
 //        System.out.println("Faktorial je: " + faktorial);
 
         //ruska ruleta
-//        Random rmg = new Random();
-//        int smrt = 13;
-//        int hod = -1;
-//        int pocetsmrti = 0;
-//        int pocethodu = 100;
-//
-//        for (int i = 1; i <= pocethodu; i ++) {
-//            hod = rmg.nextInt(1, 21);
-//
-//            if (hod == smrt) {
-//                pocetsmrti++;
-//            }
-//        }
-//        System.out.println("Umřel jsi: " + pocetsmrti + "krát.");
-//        System.out.println("Počet smrtí v procentech: " + (pocetsmrti * 100.0/ pocethodu);
-
-
         Random rmg = new Random();
-        int mince = 2;
-        int hod = 0;
+        int smrt = 13;
+        int hod = -1;
         int pocetsmrti = 0;
-        int pocethodu = 1000000;
+        int pocethodu = 100;
 
         for (int i = 1; i <= pocethodu; i ++) {
-            hod = rmg.nextInt(1, 3);
+            hod = rmg.nextInt(1, 21);
 
-            if (hod == mince) {
+            if (hod == smrt) {
                 pocetsmrti++;
             }
         }
+        System.out.println("Umřel jsi: " + pocetsmrti + "krát.");
+        System.out.println("Počet smrtí v procentech: " + (pocetsmrti * 100.0/ pocethodu));
 
-        System.out.println("Orla si hodil v: " + pocetsmrti * 100.0/ pocethodu + " procentech");
+
+//        Random rmg = new Random();
+//        int mince = 2;
+//        int hod = 0;
+//        int pocetsmrti = 0;
+//        int pocethodu = 1000000;
+//
+//        for (int i = 1; i <= pocethodu; i ++) {
+//            hod = rmg.nextInt(1, 3);
+//
+//            if (hod == mince) {
+//                pocetsmrti++;
+//            }
+//        }
+//
+//        System.out.println("Orla si hodil v: " + (pocetsmrti * 100.0/ pocethodu + " procentech"));
     }
 }
