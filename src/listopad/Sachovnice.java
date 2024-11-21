@@ -1,6 +1,6 @@
 package listopad;
 
-public class TvaryNeboCo {
+public class Sachovnice {
     public static void main(String[] args) {
 
         int velikostMrizky = 5;
