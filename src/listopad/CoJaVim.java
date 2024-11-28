@@ -3,6 +3,7 @@ package listopad;
 public class CoJaVim {
     public static void main(String[] args) {
 
+
         int velikost = 8;
 
         for (int radek = 0; radek < velikost; radek++) {
