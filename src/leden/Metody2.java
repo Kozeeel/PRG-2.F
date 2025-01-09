@@ -25,12 +25,17 @@ public class Metody2 {
         System.out.println(msg);
     }
 
+    static double sum(double a, double b){
+        Scanner scc
+    }
+
     public static void main(String[] args) {
 //        double vstup1 = nactiCislo(16);
 //        double vstup2 = nactiCislo(3361);
 //        System.out.println(vstup1 + vstup2);
 
+//        print("Ahoj metodo!");
 
-        print("Ahoj metodo!");
+
     }
 }
