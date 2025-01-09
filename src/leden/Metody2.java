@@ -26,7 +26,7 @@ public class Metody2 {
     }
 
     static double sum(double a, double b){
-        Scanner scc
+        return a + b;
     }
 
     public static void main(String[] args) {
