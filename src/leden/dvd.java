@@ -34,7 +34,7 @@ public class dvd {
         validatePassword("yilatiV"); // Nesplňuje: obsahuje zakázané slovo
         validatePassword("heslo12");   // Nesplňuje: délka hesla
         validatePassword("NevimCoZAheslo"); // Nesplňuje: neobsahuje velké písmeno
-        validatePassword("Javasuper123");  // Splňuje
+        validatePassword("Javasuper123");  // Splňu
     }
 }
 
