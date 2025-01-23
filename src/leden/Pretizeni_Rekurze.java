@@ -13,7 +13,6 @@ public class Pretizeni_Rekurze {
             System.out.println(message);
         }
         return;
-        printMessage(count, message);
     }
     public static void main(String[] args) {
         printMessage("Ahoj", 3);
