@@ -1,4 +1,5 @@
 package Březen;
+import java.util.Arrays;
 
 public class Test_cv {
     static double soucet(){
@@ -35,11 +36,41 @@ public class Test_cv {
 //        }
 //        return vysledek;
 //    }
+
+    static int faktorialRekurze(int cislo){
+
+        if (cislo == 0 || cislo == 1){
+            return 1;
+        }
+        else {
+            return cislo * faktorialRekurze(cislo - 1);
+        }
+
+    }
+
+    static int[] zdvojnasobeniPole(int[] pole){
+
+        int[] novePole = new int[pole.length];
+
+        for (int i = 0; i < pole.length; i++) {
+
+            novePole[i] = pole[i] * 2;
+
+        }
+
+        return novePole;
+    }
     public static void main(String[] args) {
         System.out.println(soucet());
         System.out.println(isTrue(5));
         System.out.println(zprava("dabda"));
-        System.out.println(mocnina(2, 5));
+        System.out.println(mocnina(3, 4));
 //        System.out.println(faktorial(5));
+        System.out.println(faktorialRekurze(5));
+
+        int[] pole = {1,2,3,4,8,12};
+        System.out.println("Původní pole: " + Arrays.toString(pole));
+        int [] novePole = zdvojnasobeniPole(pole);
+        System.out.println("Pole po zdvojnásobení: " + Arrays.toString(novePole));
     }
 }
