@@ -47,12 +47,16 @@ public class Pokus {
         return novepole;
     }
 
+
+    double[] arr = {-1, -2, -3, -4, -5};
+    swap(arr, 1, 3);
+        System.out.println(java.util.Arrays.toString(arr));
     public static void main(String[] args) {
         System.out.println(soucet(5,14));
         System.out.println(isTrue(7));
         System.out.println(zprava("sss"));
         System.out.println(faktorial(4));
-        System.out.println(fibo(6));
+        System.out.println(fibo(10));
 
         int [] pole = {1,2,4,8};
         int [] novepole = dvaKrat(pole);
