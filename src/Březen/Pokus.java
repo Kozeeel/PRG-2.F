@@ -49,8 +49,8 @@ public class Pokus {
 
 
     double[] arr = {-1, -2, -3, -4, -5};
-    swap(arr, 1, 3);
-        System.out.println(java.util.Arrays.toString(arr));
+//    swap(arr, 1, 3);
+//        System.out.println(java.util.Arrays.toString(arr));
     public static void main(String[] args) {
         System.out.println(soucet(5,14));
         System.out.println(isTrue(7));

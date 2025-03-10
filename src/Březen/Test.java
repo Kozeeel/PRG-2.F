@@ -29,7 +29,7 @@ public class Test {
         for (int i = 0; i < arr.length; i++) {
 
 
-            arr[i] = arr[Math.pow()];
+//            arr[i] = arr[Math.pow()];
         }
     }
 
@@ -42,12 +42,12 @@ public class Test {
         swap(arr, 1, 3);
         System.out.println(java.util.Arrays.toString(arr));
 
-        double[] arr = {-1, -2, -3, -4, -5};
-        swap(arr, 1, 3);
-        System.out.println(java.util.Arrays.toString(arr));
-
-        double[] cisla = {1, 2, 3, 5};
-        squareAll(cisla);
+//        double[] arr = {-1, -2, -3, -4, -5};
+//        swap(arr, 1, 3);
+//        System.out.println(java.util.Arrays.toString(arr));
+//
+//        double[] cisla = {1, 2, 3, 5};
+//        squareAll(cisla);
 
     }
 }
