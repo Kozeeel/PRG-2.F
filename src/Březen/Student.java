@@ -28,6 +28,5 @@ public class Student {
     public static void main(String[] args) {
         Student student1 = new Student("Jan", 6);
         student1.genZnamek();
-        student1
     }
 }
